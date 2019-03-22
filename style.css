@@ -1,0 +1,55 @@
+body {
+	font-family: 'Margarine', cursive;
+	font-size: 1.3rem;
+	align-items: center;
+}
+
+.big-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+li{
+	font-size: 1.4rem;
+	transition: text-decoration .3s ease;
+}
+
+li:hover {
+/* 	background: #ced5e0;
+	font-size: 1.5rem; */
+		text-decoration: underline;
+	cursor: pointer;
+}
+
+.dashboard {
+	width: 300px;
+}
+.start-stop{
+	padding-left: 20px;
+	text-align: center;
+}
+
+.start-stop div {
+	margin: auto;
+}
+
+.btn {
+	font-size: 1.5rem;
+	margin: 0 100px;
+	transition: text-decoration .3s ease;
+}
+.btn:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+.container {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+}
+
+#canvas {
+	border: 1px solid black;
+}

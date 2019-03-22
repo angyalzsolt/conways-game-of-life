@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Game of life</title>
+	<link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="big-container">
+		<div class="dashboard">
+		<h1>Conway's Game of Life</h1>
+		<p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.<br>
+		The game is a zero-player game,<br> meaning that its evolution is determined by its initial state, requiring no further input. </p>
+		<br>
+		<p><u>Select a pattern</u></p>
+			<ul id="patterns">
+				<li id="blinker">Blinker</li>
+				<li id="toad">Toad</li>
+				<li id="glider">Glider</li>
+				<li id="r_pentomino">The R-pentomino</li>
+				<li id="penta_decathlon">Penta-decathlon(Period 15)</li>
+			</ul>
+		</div>
+	
+	<div class="container">
+		<canvas id="canvas" width="800px" height="500px"></canvas>
+	</div>
+	</div>
+		<div class="start-stop">
+			<div>
+				<span class="btn" id="startGame">Start the game</span>
+				<span class="btn" id="resetGame">Reset</span>
+			</div>
+
+		</div>	
+
+
+<script type="text/javascript" src="index2.js"></script>
+</body>
+</html>
